@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<title>Test</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<section class="header">
+    <nav>
+        <a href="index.htm"><img src="images/logo.jpg"></a>
+         <div class="nav-links" id="navLinks">
+            <i class="fas fa-window-close" onclick="hideMenu()"></i>
+              <ul>
+                 <li><a href="about.htm">Red Velvet</a></li>
+                 <li><a href="#IRENE">IRENE</a></li>
+                 <li><a href="#SEULGI">SEULGI</a></li>
+                 <li><a href="#WENDY">WENDY</a></li>
+                 <li><a href="#JOY">JOY</a></li>
+                 <li><a href="#YERI">YERI</a></li>
+              </ul>
+         </div>
+         <i class="fas fa-bars" onclick="showMenu()"></i>
+     </nav>
+</section>
+<div class="text-box">
+    <h1>Red Velvet</h1>
+    <p>Red Velvet is a South Korean girl group formed and managed by SM Entertainment.
+        They originally debuted on August 1, 2014 with the single "Happiness" with the four-member
+        line-up of Irene, Seulgi, Wendy and Joy. A fifth member, Yeri, joined the group in March 2015, following the release of their first mini album, Ice Cream Cake.
+    </p>
+    <a href="about.htm" class="hero-btn">Learn more about Red Velvet</a>
+</div>
+
+<!-------Javascript for Toggle Menu-------->
+
+<script>
+
+    var navLinks = document.getElementById("navLinks")
+
+    function showMenu (){
+        navLinks.style.right="0";
+    }
+    function hideMenu (){
+        navLinks.style.right="-200px";
+    }
+
+</script>
+
+<!-----Members--------->
+
+<section class="members">
+    <h1>Members</h1>
+
+    <div class="row">
+        <div class="members-col">
+            <img src="images/irneee.jpg">
+            <div class="layer">
+                <h3 style="color: rgb(235, 108, 129);">IRENE</h3>
+            </div>
+        </div>
+        <div class="members-col">
+            <img src="images/seul.jpg">
+            <div class="layer">
+                <h3 style="color: rgb(207, 145, 29);">SEULGI</h3>
+            </div>
+        </div>
+        <div class="members-col">
+            <img src="images/wenD.jpg">
+            <div class="layer">
+                <h3 style="color: rgb(29, 78, 184);">WENDY</h3>
+            </div>
+        </div>
+        <div class="members-col">
+            <img src="images/joyy.jpg">
+            <div class="layer">
+                <h3 style="color: rgb(99, 151, 46);">JOY</h3>
+            </div>
+        </div>
+        <div class="members-col">
+            <img src="images/yerrrri.jpg">
+            <div class="layer">
+                <h3 style="color: rgb(121, 25, 211);">YERI</h3>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-----Albums----->
+
+<section class="albums">
+    <h1>Albums</h1>
+
+<div class="row">
+    <div class="album-col-1">
+        <h3>The Red</h3>
+        <p>The Red in September 2015, with the lead single "Dumb Dumb".
+            The album topped various music charts, including the Billboard World Albums Charts, while "Dumb Dumb" became their first single to surpass a million downloads.</p>
+    </div>
+    <div class="album-col-2">
+        <h3>The Perfect Red Velvet</h3>
+        <p>A truly consistent pop album is hard to come by, but Red Velvet have made a few of them to date -- and Perfect Velvet may be their crowning jewel.</p>
+    </div>
+    <div class="album-col-3">
+        <h3>The Reve Festival: Finale</h3>
+        <p>The album contains a total of sixteen tracks, with twelve of which were taken from the group's first two installations from the trilogy in the same year. The lead single "Psycho" appeared on several year-end music lists as one of the best K-pop releases of 2019. </p>
+    </div>
+</section>
+
+<section class="albums">
+<div class="row2">
+    <div class="album-col-4">
+        <h3>Summer Magic</h3>
+        <p>Summer Magic is the second special extended play and the seventh overall by South Korean girl group Red Velvet, marketed as their special "summer" EP following The Red Summer, which was released in July 2017.</p>
+    </div>
+    <div class="album-col-5">
+        <h3>Ice Cream Cake</h3>
+        <p>Ice Cream Cake marks the first release from Red Velvet to contain both "Red" and "Velvet" compositions, The extended play starts with the same-name track "Ice Cream Cake", a "punchy, sugary pop confection" that consists elements from dance-rock, bubblegum-pop and drum and bass. </p>
+    </div>
+    <div class="album-col-6">
+        <h3>Queendom</h3>
+        <p>Queendom consists of six songs and incorporates various genres such as dance, R&B, and soul.[8] The title track "Queendom" was described as a dance-pop song with a "refreshing atmosphere".An all-killer summer project exploring the themes of empowerment, romance and its accompanying obstacles</p>
+    </div>
+</section>
+
+<!-----Sub-unit and Solo----->
+
+<section class="subunit">
+    <h1>Subunit & Solo</h1>
+    <div class="row">
+        <div class="subunit-col">
+            <img src="images/i&s.jpg">
+            <h3>Irene & Seulgi: Monster</h3>
+            <p>Irene & Seulgi is the first sub-unit of South Korean girl group Red Velvet, formed by SM Entertainment in 2020. It is composed of members Irene and Seulgi. The duo debuted on July 6, 2020, with the extended play Monster. </p>
+        </div>
+        <div class="subunit-col">
+            <img src="images/wolo.jpg">
+            <h3>Wendy: Like Water</h3>
+            <p>Like Water is the debut extended play by South Korean singer Wendy. The EP was released on April 5, 2021, by SM Entertainment and consists of five tracks, including the two title tracks, "When This Rain Stops" and "Like Water".</p>
+        </div>
+        <div class="subunit-col">
+            <img src="images/joylo.jpg">
+            <h3>Joy: Hello</h3>
+            <p>Hello is the debut extended play by Red Velvet Joy. It was released on May 31, 2021. The EP consists of six new remakes of famous songs from the 1990s and 2000s, including the title song "Hello" and pre-released single "Je T'aime".</p>
+        </div>
+    </div>
+</section>
+
+<!-----Quotes----->
+
+<section class="quotes">
+    <h1>Famous Quotes</h1>
+
+    <div class="row">
+        <div class="quotes-col">
+            <img src="images/seulpring.jpg">
+            <div>
+                <p>cut cut! adidas! puma!</p>
+                <h3>Kang Seulgi, (2018)</h3>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+        </div>
+        <div class="quotes-col">
+             <img src="images/yerim.jpg">
+            <div>
+                <p>"I like girls, girls generation."</p>
+                <h3>Kim Yerim, (2016)</h3>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+        </div>
+    </div>
+    <div class="row2">
+        <div class="quotes-col">
+            <img src="images/irenehaha.webp">
+           <div>
+                <p>"Come on Joy... Joy..Come on.."</p>
+                <h3>Bae Joohyun, (2018)</h3>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+           </div>
+       </div>
+       <div class="quotes-col">
+           <img src="images/wnehdahha.png">
+          <div>
+                <p>"Yadong!"</p>
+                <h3>Son Seungwan, (2016)</h3>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+          </div>
+      </div>
+    </div>
+</section>
+
+<section class="queendom">
+    <h1> Red Velvet - Queendom</h1>
+    <a href="https://www.youtube.com/watch?v=c9RzZpV460k" target="_blank" class="hero-btn">Stream >></a>
+</section>
+
+<!-----Footer----->
+<section class="footer">
+    <h4> About the Author </h4>
+    <p>  Hi! I'm Matthew Enarle, I'm a Computer Science student and a Reveluv.
+    </p>
+    <div class="icons">
+        <i class="fab fa-facebook-f"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-discord"></i>
+    </div>
+</section>
+</body>
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<title>Red Velvet</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<section class="sub-header">
+    <nav>
+        <a href="index.htm"><img src="images/logo.jpg"></a>
+         <div class="nav-links" id="navLinks">
+            <i class="fas fa-window-close" onclick="hideMenu()"></i>
+              <ul>
+                 <li><a href="#Red Velvet">Red Velvet</a></li>
+                 <li><a href="#IRENE">IRENE</a></li>
+                 <li><a href="#SEULGI">SEULGI</a></li>
+                 <li><a href="#WENDY">WENDY</a></li>
+                 <li><a href="#JOY">JOY</a></li>
+                 <li><a href="#YERI">YERI</a></li>
+              </ul>
+         </div>
+         <i class="fas fa-bars" onclick="showMenu()"></i>
+     </nav>
+     <h1> Red Velvet</h1>
+</section>
+
+<!----------about rv content---------->
+<section class="about-rv">
+
+    <div class="row">
+        <div class="about-col">
+            <h1>Red Velvet</h1>
+            <p>Red Velvet is a South Korean girl group formed and managed by SM Entertainment.
+             They originally debuted on August 1, 2014 with the single "Happiness" with the four-member
+             line-up of Irene, Seulgi, Wendy and Joy. A fifth member, Yeri, joined the group in March 2015, following the release of their first mini album, Ice Cream Cake.</p>
+            <a href="https://en.wikipedia.org/wiki/Red_Velvet_(group)" class="hero-btn red-btn">LEARN MORE</a>
+        </div>
+        <div class="about-col">
+            <img src="images/grppp.jpg">
+        </div>
+    </div>
+</section>
+
+
+<!-------Javascript for Toggle Menu-------->
+
+<script>
+
+    var navLinks = document.getElementById("navLinks")
+
+    function showMenu (){
+        navLinks.style.right="0";
+    }
+    function hideMenu (){
+        navLinks.style.right="-200px";
+    }
+
+</script>
+
+<section class="footer">
+    <h4> About the Author </h4>
+    <p>  Hi! I'm Matthew Enarle, I'm a Computer Science student and a Reveluv.
+    </p>
+    <div class="icons">
+        <i class="fab fa-facebook-f"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-discord"></i>
+    </div>
+</section>
+</body>
+</html>
